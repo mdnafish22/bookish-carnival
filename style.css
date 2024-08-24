@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+h2{
+    color: #fff;
+    padding: 9px 11px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://media.gettyimages.com/id/471040360/photo/achieved-goals.jpg?s=612x612&w=0&k=20&c=GqfkERwwQd1ukF2RB4QpMgqZlraXVqSRrK27orteR78=);
+
+    height: 120vh;
+
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+ul {
+
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+
+ul li {
+
+     display: inline-block;
+
+}
+ul li a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: burlywood;
+
+    padding: 10px 11px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+
+}
+ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+   
+}
+ul li:active a
+{
+    background-color: #fff;
+    color: #000;
+    
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1 
+{
+    color: #fff;
+    font-size: 40px;
+
+}
+.button
+{
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+.btn
+{
+    border: 1px solid #fff;
+    padding: 7px 9px;
+    color: yellowgreen;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+.btn:hover
+{
+    background-color: #fff;
+    color: #000;
+    
+}
